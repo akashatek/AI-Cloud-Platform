@@ -13,8 +13,7 @@ Table Of Content
 | ![ollama logo](./assets/logo-ollama.png)  | [Ollama](#ollama) is the engine that brings large language models (LLMs) to your desktop. It allows you to download, run, and manage open-source models like Llama 3 directly on your local machine, eliminating the need for expensive cloud services. Ollama simplifies the entire process, making it easy to experiment with different models for your AI applications.  |
 | ![postgres logo](./assets/logo-postgres.png)  | [Postgres](#postgres) is a powerful, open-source relational database. While it's known for its reliability and robustness in storing traditional, structured data, it also plays a critical role in modern AI stacks. In this context, Postgres is used to manage the metadata and structured information associated with your AI application, providing a solid foundation for user data, logs, and other critical backend needs.  |
 | ![postgrest logo](./assets/logo-postgrest.png)  | [PostgREST](#postgrest) is a standalone web server that turns your PostgreSQL database directly into a RESTful API. The structural constraints and permissions in the database determine the API endpoints and operations.  |
-| ![swagger logo](./assets/logo-swagger.png)  | [Swagger](#swagger) enables design, governance, and testing across the full AI-enabled API lifecycle, ensuring quality at every step.
-Build APIs ready for humans, LLMs, agents, and continuous innovation.  |
+| ![swagger logo](./assets/logo-swagger.png)  | [Swagger](#swagger) enables design, governance, and testing across the full AI-enabled API lifecycle, ensuring quality at every step. Build APIs ready for humans, LLMs, agents, and continuous innovation.  |
 
 <a id="configuration"></a>
 ## Configuration
