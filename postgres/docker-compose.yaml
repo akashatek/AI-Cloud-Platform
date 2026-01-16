@@ -2,8 +2,8 @@ name: acp
 
 services:
   postgres:
-    container_name: postgres
     image: postgres:17.5
+    container_name: postgres
     ports:
       - "5432:5432"
     environment:
@@ -12,6 +12,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d
       - postgres_data:/var/lib/postgresql/data # Persistent storage for PostgreSQL data
     networks:
       - acp_network
